@@ -105,20 +105,7 @@ const LoginPage = () => {
         </div>
       </div>
 
-      {/* Right Side - Image/Pattern */}
-      <div className="relative flex flex-col items-center justify-center">
-        {/* Inserted Image at the Top */}
-        <img
-          src="./assets/frontimg.png"  
-          alt="Welcome Image"
-          className="w-48 h-48 object-cover mb-4 rounded-lg shadow-lg animate-fade-in"
-        />
-
-        <AuthImagePattern
-          title={"Welcome back!"}
-          subtitle={"Sign in to continue your conversations and catch up with your messages."}
-        />
-      </div>
+     
     </div>
   );
 };
