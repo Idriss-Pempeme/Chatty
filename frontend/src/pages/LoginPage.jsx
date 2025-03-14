@@ -109,7 +109,7 @@ const LoginPage = () => {
       <div className="relative flex flex-col items-center justify-center">
         {/* Inserted Image at the Top */}
         <img
-          src="./assets/frontimg.png"  // Replace with the actual image path
+          src="./assets/frontimg.png"  
           alt="Welcome Image"
           className="w-48 h-48 object-cover mb-4 rounded-lg shadow-lg animate-fade-in"
         />
